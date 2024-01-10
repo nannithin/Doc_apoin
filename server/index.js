@@ -6,7 +6,7 @@ import cors from 'cors';
 
 const app = express()
 const PORT = 5000;
-const MONGOO_URI = "mongodb+srv://nithin:nani123@cluster0.tpfyhn3.mongodb.net/doctorapp?retryWrites=true&w=majority"
+const MONGOO_URI = "your uri"
 
 app.use(express.json());
 app.use(cookieParser());
