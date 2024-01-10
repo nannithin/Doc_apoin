@@ -5,13 +5,13 @@ import allRoutes from "./routes/index.js";
 import cors from 'cors';
 
 const app = express()
-const PORT = 5000;
+const PORT = "port";
 const MONGOO_URI = "your uri"
 
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin:["http://localhost:5174"],
+    origin:["your origin"],
     methods:["GET","POST","PUT","DELETE"],
     credentials: true
 }))
