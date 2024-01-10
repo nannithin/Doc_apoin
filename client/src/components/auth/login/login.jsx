@@ -25,7 +25,7 @@ const Login = () => {
             email : email,
             password : password,
         }
-        const resp = await axios.post("http://localhost:5000/api/auth/login",user,{
+        const resp = await axios.post("your api",user,{
             withCredentials : true
         })
         if(resp.data == "Login Sucessfull"){
